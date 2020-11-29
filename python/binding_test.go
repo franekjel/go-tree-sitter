@@ -3,8 +3,8 @@ package python_test
 import (
 	"testing"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/python"
+	sitter "github.com/franekjel/go-tree-sitter"
+	"github.com/franekjel/go-tree-sitter/python"
 	"github.com/stretchr/testify/assert"
 )
 

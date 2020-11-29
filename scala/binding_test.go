@@ -3,8 +3,8 @@ package scala_test
 import (
 	"testing"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/scala"
+	sitter "github.com/franekjel/go-tree-sitter"
+	"github.com/franekjel/go-tree-sitter/scala"
 	"github.com/stretchr/testify/assert"
 )
 

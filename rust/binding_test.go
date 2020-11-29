@@ -3,8 +3,8 @@ package rust_test
 import (
 	"testing"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/rust"
+	sitter "github.com/franekjel/go-tree-sitter"
+	"github.com/franekjel/go-tree-sitter/rust"
 	"github.com/stretchr/testify/assert"
 )
 
