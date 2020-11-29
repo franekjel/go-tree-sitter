@@ -67,7 +67,7 @@ func (p *Parser) Parse(oldTree *Tree, content []byte) *Tree {
 	}
 
 	input := C.CBytes(content)
-	BaseTree = C.ts_parser_parse_string_encoding(p.c, BaseTree, (*C.char)(input), C.uint32_t(len(content)), 0)
+	BaseTree = C.ts_parser_parse_string(p.c, BaseTree, (*C.char)(input), C.uint32_t(len(content)))
 	C.free(input)
 
 	return p.newTree(BaseTree)
